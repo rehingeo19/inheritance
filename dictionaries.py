@@ -1,0 +1,10 @@
+a={"car":"audi",
+   "model":2025,
+   "color":"white"}
+print(a)
+print(a.get("seat"))
+print(a.keys())
+print(a.values())
+print(a.items())
+a.update({"seat":7})
+print(a)
